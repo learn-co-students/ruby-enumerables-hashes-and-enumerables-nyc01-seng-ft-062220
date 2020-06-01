@@ -6,4 +6,7 @@
 
 def happy_birthday(birthday_kids)
   # add your code snippet here!
+  birthday_kids.collect do |k,v|
+    puts "Happy Birthday #{k}! You are now #{v} years old!"
+  end   
 end
